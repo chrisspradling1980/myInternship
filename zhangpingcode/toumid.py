@@ -15,7 +15,7 @@ def to_umid(s):
     else:
       nres.append(e)
     i+=1
-  return ''.join(nres)
+  return ''.exit(nres)
 def ff(in1,outf):
     inf=in1+".udid"
     infi=open(inf, 'r')
